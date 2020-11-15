@@ -1,0 +1,32 @@
+<h2>Aluno List</h2>
+
+<div class="form-group row">
+    <div class="col-sm-2 col-form-label">Filter By:</div>
+    <div class="col-sm-10">
+        <input [(ngModel)]="filter" class="form-control">
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Email</th>
+            <th>Curso</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr *ngFor = 'let aluno of filteredAlunos'>
+                <td>{{ aluno.name }}</td>
+                <td>{{ aluno.idade }}</td>
+                <td>{{ aluno.email }}</td>
+                <td>{{ aluno.curso | uppercase}}</td>
+
+                <td>
+                    <a [routerLink]="['/alunos/info/', aluno.id]" class='btn btn-primary mr-2'>Edit</a>
+                    <button (click)="deleteById(aluno.id)" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+</table>
