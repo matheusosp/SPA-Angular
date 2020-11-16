@@ -1,7 +1,7 @@
 # Single Page Application com Angular
 ## Comandos pra rodar localmente:
 
-<br>git clone https://github.com/matheusosp/SPA-Angular.git
+git clone https://github.com/matheusosp/SPA-Angular.git
 <br>cd servers
 <br>cd manager-server
 <br>npm install
