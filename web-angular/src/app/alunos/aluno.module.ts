@@ -1,3 +1,4 @@
+import { MatSortModule } from '@angular/material/sort';
 import { NgModule } from '@angular/core';
 
 import { RouterModule } from '@angular/router';

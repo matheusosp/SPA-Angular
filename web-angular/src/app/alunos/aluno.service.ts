@@ -32,4 +32,8 @@ export class AlunoService{
         return this.HttpClient.delete<any>(`${this.alunoUrl}/${id}`);
     }
 
+    qtd(): Observable<Aluno[]> {
+        return this.HttpClient.get<Aluno[]>(this.alunoUrl); 
+    }
+    
 }

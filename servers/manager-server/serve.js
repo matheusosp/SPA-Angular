@@ -83,5 +83,40 @@ var ALUNOS = [
     idade: 45, 
     email: 'Teste3@gmail.com', 
     curso: 'Sistemas da informacao' 
+  },
+  { 
+    id: 5,
+    name: 'Teste 3',
+    idade: 45, 
+    email: 'Teste3@gmail.com', 
+    curso: 'Sistemas da informacao' 
+  },
+  { 
+    id: 2,
+    name: 'Teste',
+    idade: 25,
+    email: 'Teste@gmail.com',
+    curso: 'Analise e desenvolvimento de sistemas' 
+  },
+  { 
+    id: 3,
+    name: 'Teste 2',
+    idade: 31,
+    email: 'Teste2@gmail.com',
+    curso: 'Engenharia da computacao' 
+  },
+  { 
+    id: 4,
+    name: 'Teste 3',
+    idade: 45, 
+    email: 'Teste3@gmail.com', 
+    curso: 'Sistemas da informacao' 
+  },
+  { 
+    id: 5,
+    name: 'Teste 3',
+    idade: 45, 
+    email: 'Teste3@gmail.com', 
+    curso: 'Sistemas da informacao' 
   }
 ]

@@ -1,3 +1,4 @@
+import { MatSortModule } from '@angular/material/sort';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { error404Component } from './components/404/error-404.component';
 import { RouterModule } from '@angular/router';
@@ -16,7 +17,7 @@ import { NgModule } from '@angular/core';
         ])
     ],
     exports:[
-        NavBarComponent
+        NavBarComponent,
     ]
 })
 
