@@ -7,7 +7,6 @@
 <br>npm install
 <br>node serve.js
 <br>
-<br>
 <br>cd web-angular
 <br>npm install
 <br>ng serve -o 
